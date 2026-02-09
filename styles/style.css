@@ -1,1 +1,85 @@
 /* место для вашего кода */
+.header {
+    height: 200px;
+    padding: 0 50px;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 130px;
+    height: 105px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+
+.cover {
+    margin-bottom: 180px;
+    width: 100%;
+    min-height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wraper-background-shading {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: inherit;
+    min-height: inherit;
+}
+
+.cover__content {
+    padding: 165px 50px 50px 50px;
+}
+
+.cover__title {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 115%;
+/* identical to box height, or 115px */
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.align--center {
+    display: block;
+    text-align: center;
+}
+
+.align--right {
+    display: block;
+    text-align: right;
+}
+
+.lots {
+    margin-bottom: 120px;
+}
+
+
+.about {
+    margin: 0 24px 180px 24px;
+    padding: 35px 0 0 45px;
+}
+
+.radial-background--black {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.about__logo-image {
+    width: 148px;
+}
+
+.footer {
+    padding: 0 50px;
+}
