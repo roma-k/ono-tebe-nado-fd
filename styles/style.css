@@ -258,7 +258,7 @@ gap: 24px;
 }
 
 .footer__contacts {
-    width: 245px;
+    max-width: 245px;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
