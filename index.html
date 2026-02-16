@@ -26,9 +26,15 @@
           src="images/logo-black.svg"
           alt="Логотип аукциона Оно тебе надо"
       /></a>
-      <address class="header__contacts">
-        <a href="tel:+99995555555">+9 999 555 5555</a> <br />
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a> <br />
+      <address class="adress-block">
+        <a href="tel:+99995555555" class="adress-block__link"
+          >+9 999 555 5555</a
+        >
+        <br />
+        <a href="mailto:info@sobaka.ge" class="adress-block__link"
+          >info@sobaka.ge</a
+        >
+        <br />
         <span>наб. Принсенграхт 263- 265, Амстердам</span>
       </address>
     </header>
@@ -38,7 +44,7 @@
         <div class="cover__content">
           <h1 class="cover__title">
             <span>оно</span>
-            <span class="align--center margin-top-bottom15">тебе</span>
+            <span class="align--center margin-top-extended">тебе</span>
             <span class="align--right">надо</span>
           </h1>
           <div class="cover__description">
@@ -56,9 +62,9 @@
             <a href="#" class="card-link">
               <article class="card card_type_film">
                 <div class="wraper-background-shading"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h1>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -71,9 +77,9 @@
             <a href="#" class="card-link">
               <article class="card card_type_book">
                 <div class="wraper-background-shading"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h1>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -89,9 +95,9 @@
             <a href="#" class="card-link">
               <article class="card card_type_picture">
                 <div class="wraper-background-shading"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h1>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -114,7 +120,11 @@
             />
           </div>
         </div>
-        <div class="about__column">
+        <!--
+          TODO: Для улучшения семантики этого блока можно использовать тег <article>, 
+            так как внутри уникальный контент и может считаться самостоятельным содержимым
+        -->
+        <article class="about__column">
           <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
@@ -134,20 +144,20 @@
               лоты стали культовыми.
             </p>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__contacts">
-        <a href="tel:+99995555555" class="footer__contakts-link"
+      <address class="adress-block adress-block__footer">
+        <a href="tel:+99995555555" class="adress-block__link"
           >+9 999 555 5555</a
         >
         <br />
-        <a href="mailto:info@sobaka.ge" class="footer__contakts-link"
+        <a href="mailto:info@sobaka.ge" class="adress-block__link"
           >info@sobaka.ge</a
         >
         <br />
-        наб. Принсенграхт 263- 265, Амстердам
+        <span>наб. Принсенграхт 263- 265, Амстердам</span>
       </address>
       <nav>
         <ul class="footer__nav-list">
